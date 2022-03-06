@@ -51,7 +51,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         wordArray.removeAll()
         wordMap.removeAll()
         
-        print("New word:", wordString)
+//        print("New word:", wordString)
         
         for ch in wordString {
             let chStr = ch.description
